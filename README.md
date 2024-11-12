@@ -1,6 +1,6 @@
 # ESP32 Wi-Fi and MQTT LED Control with Optional DHT11 Sensor
 
-This project demonstrates how to connect an ESP32 microcontroller to a Wi-Fi network and an MQTT broker, and control an LED via MQTT messages. The code is designed to work with a DHT11 sensor (though currently commented out), which could be used for reading temperature and humidity data.
+This project demonstrates how to connect an ESP32 microcontroller to a Wi-Fi network and an MQTT broker, and control an onboard LED via MQTT messages. The code also supports an optional DHT11 sensor to measure temperature and humidity data (currently commented out).
 
 ### Features:
 - Connects ESP32 to a Wi-Fi network.
@@ -22,7 +22,7 @@ This project demonstrates how to connect an ESP32 microcontroller to a Wi-Fi net
 ### Setup:
 
 1. **Install the required libraries:**
-   - `WiFi.h` and `PubSubClient.h` can be installed via the Arduino Library Manager.
+   - Install the `WiFi.h` and `PubSubClient.h` libraries via the Arduino Library Manager.
 
 2. **Configure your Wi-Fi credentials:**
    - Open the code and replace the following with your network's details:
